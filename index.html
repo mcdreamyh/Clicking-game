@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicking game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <audio id="audio" src="sounds/bark.wav"></audio>
+    <audio id="audio2" src="sounds/woosh.wav"></audio>
+    <!--<button onclick="addTarget()">Click</button>
+    <button onclick="pos()">Change position</button>
+    <button onClick="window.location.reload();">Restart</button>
+    <button onClick="startGame();">Start</button>-->
+    <div id="gamescreen">
+        <div class="st">
+            <p class="stats" id="score">0 </p>
+            <p class="stats" id="time">Time: <span id="timer"> &nbsp;</span></p>
+        </div>
+        <div class="start">
+            <button onClick="startGame();" id="startbutton">Start</button>
+            <button id="restart" onClick="window.location.reload();">Restart</button>
+        </div>
+
+        <h1 class="win" id="win">GAME OVER!</h1>
+        <p class="endScore" id="gameScore"></p>
+
+    </div>
+</body>
+
+</html>
+<!-- NOTES
+
+
+
+-->

@@ -13,7 +13,7 @@
         align-items: center;
         height: 100vh;
         flex-direction: column;
-        background-image: url("/img/bg.png");
+        background-image: url("./img/bg.png");
         background-repeat: no-repeat;
         background-size: cover;
     }

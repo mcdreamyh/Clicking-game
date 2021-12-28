@@ -14,7 +14,7 @@ function addTarget() {
     //Add target element into gamescreen
     game.appendChild(target);
     pos("1");
-    countdown(0, 1);
+    countdown(0, 30);
 }
 
 function pos() {
